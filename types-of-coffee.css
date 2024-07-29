@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+ --white: #dfe6ed;
+ --dark: #252C32;
+ --brown: #5B4644;
+ --coffee: #87624F;
+ --tan: #DAB7A3;
+ --water: #859FB5;
+}
+#coffee101{
+  text-align: center;
+  font-size: 70px;
+}
+ 
+html {
+ display: grid;
+ min-height: 100%;
+ 
+}
+#nav-item{
+  list-style-type: none;
+  
+  
+}
+
+
+ 
+body {
+ background: var(--dark);;
+ display: grid;
+ font-family: 'Bebas Neue', cursive;
+ text-transform: uppercase;
+}
+ 
+h3 {
+ font-size: 0.8em;
+ letter-spacing: 1px;
+ font-weight: 100;
+}
+ 
+.container {
+ position: relative;
+ margin: auto;
+ overflow: hidden;
+ width: 500px;
+ height: 700px;
+}
+ 
+.bar {
+ position: absolute;
+ height: 85%;
+ width: 3px;
+ left: 7%;
+ top: 7.5%;
+ background: var(--white);;
+}
+ 
+.circle {
+ width: 10px;
+ height: 10px;
+ position: absolute;
+ border-radius: 50%;
+ left: -5px;
+ border: 1px solid var(--white);;
+ box-shadow: 0px 0px 7px rgba(var(--white), 100%);
+}
+ 
+.top {
+ background: var(--brown);;
+ top: -1%;
+}
+.middle {
+ background: var(--coffee);;
+ top: 38%;
+}
+.bottom {
+ background: var(--tan);;
+ bottom: -1%;
+}
+ 
+.bold {
+ color: var(--coffee);;
+ position: absolute;
+ top: -7%;
+ left: -17px;
+}
+ 
+.creamy {
+ color: var(--tan);;
+ position: absolute;
+ bottom: -7%;
+ left: -27px;
+}
+ 
+.info {
+ width: 55%;
+ height: 100%;
+ position: absolute;
+ left: 43%;
+}
+.info:hover{
+  transform: scale3d(1);
+}
+ 
+ 
+.coffee-cups {
+ width: 40%;
+ height: 100%;
+ position: absolute;
+ left: 10%;
+ top: 3%;
+}
+ 
+.handle {
+ position: absolute;
+ height: 20px;
+ width: 15px;
+ background: transparent;
+ border-radius: 50% 30%;
+ left: 95%;
+ top: 10%;
+ z-index: -1;
+ border: 2px solid var(--white);;
+}
+ 
+.cup {
+ position: absolute;
+ width: 70px;
+ height: 55px;
+ background: var(--dark);;
+ border: 2px solid var(--white);;
+ border-radius: 0 0 5rem 5rem;
+ left: 20%;
+}
+ 
+.cup-small {
+ position: absolute;
+ width: 55px;
+ height: 40px;
+ background: var(--dark);;
+ border: 2px solid var(--white);;
+ border-radius: 0 0 5rem 5rem;
+ left: 23%;
+}
+ 
+.cup-long {
+ position: absolute;
+ width: 60px;
+ height: 70px;
+ background: var(--dark);;
+ border: 2px solid var(--white);;
+ border-radius: 10% 10% 50% 50%;
+ left: 22%;
+}
+ 
+.doppio {
+ top: 5%;
+ background: linear-gradient(to bottom, var(--dark) 40%, var(--brown) 40%, var(--coffee) 70%);
+}
+ 
+.americano {
+ top: 18.5%;
+ background: linear-gradient(to bottom, var(--dark) 13%, var(--water) 13%, var(--water) 50%, var(--coffee) 50%);
+}
+ 
+.macchiato {
+ top: 35%;
+  background: linear-gradient(to bottom, var(--dark) 20%, var(--white) 20%, var(--white) 40%, var(--coffee) 40%);
+}
+ 
+.flatwhite {
+ top: 50%;
+ background: linear-gradient(to bottom, var(--dark) 10%, var(--white) 10%, var(--tan) 60%, var(--coffee) 65%, var(--brown) 90%);
+}
+ 
+.cappuccino {
+ top: 64%;
+ background: linear-gradient(to bottom, var(--white) 50%, var(--tan) 50%, var(--tan) 55%, var(--coffee) 60%);
+}
+ 
+.latte {
+ top: 81%;
+ background: linear-gradient(to bottom, var(--dark) 5%, var(--white) 5%, var(--white) 30%, var(--tan) 30%, var(--tan) 70%, var(--coffee) 70%);
+}
+ 
+/* Hovers */
+ 
+.doppio:hover{
+ transform: scale(2.5);
+ }
+
+.americano:hover{
+ transform:  scale(2.5);
+}
+ .first:hover{
+  background-color: goldenrod;
+}
+
+.macchiato:hover{
+ transform: scale(2.5);
+ 
+}
+.flatwhite:hover{
+ transform: scale(2.5);
+}
+.cappuccino:hover{
+ transform: scale(2.5);
+}
+.latte:hover{
+ transform: scale(2.5);
+}
+
+/* End Of Hovers */
+ 
+h1 {
+ color: var(--white);;
+ font-size: 1em;
+ letter-spacing: 3px;
+}
+ 
+p {
+ color: var(--white);;
+ font-family: 'Bebas Neue', cursive;
+ text-transform: none;
+ font-size: 0.7em;
+ letter-spacing: 0.5px;
+ margin-top: -5px;
+}
+ 
+.first, .second, .third, .fourth, .fifth, .sixth {
+ position: absolute;
+}
+ 
+.first {
+ top: 7%;
+}
+ 
+.second {
+ top: 21%;
+}
+ 
+.third {
+ top: 36%;
+}
+ 
+.fourth {
+ top: 52%;
+}
+ 
+.fifth {
+ top: 65%;
+}
+ 
+.sixth {
+ top: 83%;
+}
+ 
+ 
+ 
+.small {
+ margin-left: 20px;
+ margin-top: -1px;
+ font-family: 'Bebas Neue', cursive;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+}
+ 
+.key {
+ position: relative;
+ margin: auto;
+ width: 500px;
+ height: 200px;
+}
+ 
+.espresso {
+ background: var(--brown);;
+ position: absolute;
+ left: 17%;
+}
+ 
+.milk {
+ background: var(--tan);;
+ position: absolute;
+ left: 40%;
+}
+ 
+.foam {
+ background: var(--white);;
+ position: absolute;
+ left: 63%;
+}
+ 
+.water {
+ background: var(--water);;
+ position: absolute;
+ left: 83%;
+}
+
+.coffee101{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
